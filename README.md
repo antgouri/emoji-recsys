@@ -5,26 +5,6 @@
 This repository contains a modular Python implementation of a hybrid recommender system enhanced with emoji-based sentiment enrichment and SHAP explanations. It also includes evaluation metrics like AUC, Precision@5, and Recall@5. 
 This work is prepared for submission to ACM RecSys 2025 as a short paper.
 
-## Project Structure
-
-emoji_recsys/
-├── src/
-│   ├── preprocessing.py         # Load and clean review dataset
-│   ├── emoji_injection.py       # Inject sentiment-based emojis
-│   ├── model_lightfm.py         # Train LightFM hybrid model
-│   ├── explainability.py        # SHAP-based model explainability
-│   └── evaluations.py           # AUC, Precision@5, Recall@5 evaluation
-├── scripts/
-│   └── run_pipeline.py          # End-to-end pipeline script
-├── csv/
-│   └── emoji_reviews.csv        # Emoji-injected output reviews
-├── outputs/
-│   └── shap_summary.png, .npy  # SHAP values and plots
-├── data/
-    Musical_Instruments_5.json   # Raw Amazon review data
-├── requirements.txt             # Python dependencies
-└── README.md
-
 ## Setup Instructions
 
 ### 1. Clone the Repository
