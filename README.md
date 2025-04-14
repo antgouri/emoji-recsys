@@ -53,6 +53,9 @@ The recommender is evaluated using:
 - Precision@5: Proportion of top-5 recommended items that are relevant.
 - Recall@5: Proportion of all relevant items recommended in top-5.
 
+## PS: For the sake of reproducibility of same results (evaluation metrics) - the LightFM model is making use of the Logistics loss function.
+## The randoms of sampling is preserved at every place with random_state=42, random_seed at global level and the number of threads is made non-parallel with a value of 1
+
 ## Dataset Used
 
 - Source: [Amazon Musical Instruments 5-core dataset](https://nijianmo.github.io/amazon/index.html)
