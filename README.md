@@ -1,6 +1,4 @@
-#readme.md
-
-#Emoji-Infused Hybrid Recommender System (Amazon Musical Instruments)
+##  Emoji-Infused Hybrid Recommender System with evaluation and explainability 
 
 This repository contains a modular Python implementation of a hybrid recommender system enhanced with emoji-based sentiment enrichment and SHAP explanations. It also includes evaluation metrics like AUC, Precision@5, and Recall@5. 
 This work is prepared for submission to ACM RecSys 2025 as a short paper.
