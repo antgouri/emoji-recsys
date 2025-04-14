@@ -3,6 +3,8 @@
 This repository contains a modular Python implementation of a hybrid recommender system enhanced with emoji-based sentiment enrichment and SHAP explanations. It also includes evaluation metrics like AUC, Precision@5, and Recall@5. 
 This work is prepared for submission to ACM RecSys 2025 as a short paper.
 
+The work is divided into baseline model and three other hybrid models: emoji_model, tfidf_model and lda_model
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
@@ -11,7 +13,7 @@ git clone https://github.com/<your_username>/emoji-recsys.git
 
 cd emoji-recsys
 
-### 2. Create a Conda Environment and Install Requirements (I prefer to use conda environments only)
+### 2. Create a Conda Environment and Install Requirements (We prefer to use conda environments only)
 
 conda create -n emosys python==3.10
 
@@ -21,9 +23,12 @@ pip install -r requirements.txt
 
 python -m textblob.download_corpora
 
-## Run the Full Pipeline
+## Run the Full Pipeline with the commands
 
-python scripts/run_pipeline.py
+- python scripts/run_pipeline.py baseline (to run the baseline model)
+- python scripts/run_pipeline.py emoji_model (to run the emoji-infused model)
+- python scripts/run_pipeline.py tfidf_model (to run the TfIDF model)
+- python scripts/run_pipeline.py lda_model (to run the LDA model)
 
 This will:
 1. Load and preprocess the data from Musical_Instruments_5.json.
@@ -48,9 +53,6 @@ The recommender is evaluated using:
 - Precision@5: Proportion of top-5 recommended items that are relevant.
 - Recall@5: Proportion of all relevant items recommended in top-5.
 
-These are computed using:
-from src.evaluations import evaluate_model, print_metrics
-
 ## Dataset Used
 
 - Source: [Amazon Musical Instruments 5-core dataset](https://nijianmo.github.io/amazon/index.html)
@@ -62,12 +64,7 @@ from src.evaluations import evaluate_model, print_metrics
 Listed in requirements.txt:
 - lightfm, textblob, pandas, scikit-learn, shap, matplotlib, nltk, cupy-cuda12x (for GPU support)
 
-Install them with:
-
-pip install -r requirements.txt
-
-
-## Author
+## Authors
 
 Developed by [Dr. Ananth G S and Dr. K. Raghuveer] as part of short paper work for ACM RecSys 2025.
 
