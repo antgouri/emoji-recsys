@@ -66,7 +66,7 @@ Listed in requirements.txt:
 
 ## Authors
 
-Developed by [Dr. Ananth G S and Dr. K. Raghuveer] as part of short paper work for ACM RecSys 2025.
+Developed by Dr. Ananth G S and Dr. K. Raghuveer as part of short paper work for ACM RecSys 2025.
 
 ## Feedback & Contributions
 
