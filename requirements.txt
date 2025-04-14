@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+textblob
+lightfm
+shap
+matplotlib
+cupy-cuda12x ; platform_system != "Windows" and python_version >= "3.7"
+nltk
