@@ -8,14 +8,17 @@ This work is prepared for submission to ACM RecSys 2025 as a short paper.
 ### 1. Clone the Repository
 
 git clone https://github.com/<your_username>/emoji-recsys.git
+
 cd emoji-recsys
 
 ### 2. Create a Conda Environment and Install Requirements (I prefer to use conda environments only)
 
 conda create -n emosys python==3.10
+
 conda activate emosys
 
 pip install -r requirements.txt
+
 python -m textblob.download_corpora
 
 ## Run the Full Pipeline
