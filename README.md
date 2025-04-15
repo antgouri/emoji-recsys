@@ -9,7 +9,7 @@ The work is divided into baseline model and three other hybrid models: emoji_mod
 
 ### 1. Clone the Repository
 
-git clone https://github.com/<your_username>/emoji-recsys.git
+git clone https://github.com/antgouri/emoji-recsys.git
 
 cd emoji-recsys
 
