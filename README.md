@@ -65,7 +65,7 @@ The randomness of sampling is preserved at every place with random_state=42, ran
 ## Dependencies
 
 Listed in requirements.txt:
-- lightfm, textblob, pandas, scikit-learn, shap, matplotlib, nltk, cupy-cuda12x (for GPU support)
+- lightfm, textblob, pandas, scikit-learn, shap, matplotlib, nltk, cupy-cuda12x (for GPU support), seaborn
 
 ## Authors
 
