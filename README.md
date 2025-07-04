@@ -75,4 +75,16 @@ Developed by Dr. Ananth G S and Dr. K. Raghuveer as part for LBR Track for ACM R
 
 Feel free to open issues or submit pull requests to improve sentiment detection, support new explainability methods, or add datasets!
 
+## Cite our work
+
+@inproceedings{emojiRecSys2025,
+  title={Revisiting Sentiment and Emoji Signals in Hybrid Recommender Systems: A Case Study},
+  author={Ananth G S, K Raghuveer},
+  booktitle={Proceedings of the Late-Breaking Results Track of the 19th ACM Conference on Recommender Systems (RecSys '25 LBR)},
+  year={2025},
+  publisher={ACM},
+  url={https://github.com/antgouri/emoji-recsys},
+  note={Available as a Late-Breaking Result at ACM RecSys 2025}
+}
+
 > Star this repo if you find it useful or insightful!
